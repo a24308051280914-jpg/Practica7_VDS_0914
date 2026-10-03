@@ -1,0 +1,37 @@
+<!-- Villa Diaz Sofia 0914 5°J -->
+<!DOCTYPE html> <!-- Aqui empieza la pagina -->
+<html lang="es"> <!-- El idioma que usa la pagina-->
+<head> <!-- Configuracion de la pagina -->
+<meta charset="UTF-8"> <!-- Sirve para utilizar letras y simbolos -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- La pagina se adapta a cualquier dispositivo -->
+<title> Formularios en HTML</title> <!-- Titulo de la pestaña -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"> <!-- Libreria -->
+</head> 
+<body> <!-- Empieza lo que se ve en la pagina -->
+<h1>Formularios</h1> <!-- Titulo de la pagina -->
+<h2>Formularios con agrupamiento</h2> <!-- Subtitulo de la pagina -->
+<form action="" method="post"> 
+<fieldset> <!-- Sirve para agrupar los datos -->
+<legend>Datos personales</legend> <!-- Titulo del grupo de datos -->
+Nombre y apellido: 
+<input type="text" name="nombre_apellido"><br> 
+Documento valido: 
+<input type="file" name="documento"><br> 
+Fecha de nacimiento: 
+<input type="date" name="fecha_nacimiento"> <!-- Sirve para seleccionar una fecha -->
+</fieldset> <!-- Aqui termina el primer grupo de datos -->
+<fieldset> <!-- Sirve para agrupar los datos de estudio -->
+<legend>Datos de estudio:</legend> <!-- Titulo del grupo de datos -->
+Nombre de la escuela: 
+<input type="text" name="escuela"><br> 
+Certificado valido: 
+<input type="file" name="certificado"><br> 
+Fecha de egreso: 
+<input type="date" name="fecha_egreso"> <!-- Sirve para seleccionar una fecha -->
+</fieldset> <!-- Aqui termina el segundo grupo de datos -->
+<br> 
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button> <!-- Boton para enviar el formulario -->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button> <!-- Boton para borrar -->
+</form> <!-- Aqui termina el formulario -->
+</body> <!-- Aqui termina lo que se ve en la pagina -->
+</html> <!-- Aqui termina la pagina -->
